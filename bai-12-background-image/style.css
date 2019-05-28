@@ -1,0 +1,30 @@
+body {
+	background-color: #EEE;
+	font-size: 22px;
+}
+
+.todo-list-image-1 {
+	background-image: url(./background-nen-tuyet-3.jpg);
+	color: #E57;
+}
+
+.todo-list-image-2 {
+	background-image: url(./nature-3005607_960_720.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px -250px;
+	height: 600px;
+	padding-left: 200px;
+	color: #FF9900;
+}
+
+.todo-list-image-2-scrollable {
+	background-image: url(./nature-3005607_960_720.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	height: 600px;
+	padding-left: 200px;
+	color: #FF9900;
+}
+}
