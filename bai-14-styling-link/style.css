@@ -1,0 +1,16 @@
+
+.home-link, .register-link, .sign-in-link {
+	background-color: #4d82e4;
+	color: white;
+	padding: 5px 15px 5px;
+	text-decoration: none;
+}
+
+.home-link:hover, .register-link:hover, .sign-in-link:hover {
+	text-decoration: underline;
+	background-color: #263e0c;
+}
+
+.register-link:visited, .sign-in-link:visited {
+ color: pink;
+}
