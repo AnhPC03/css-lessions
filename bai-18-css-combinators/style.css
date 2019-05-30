@@ -1,0 +1,24 @@
+.list .item-1 .item {
+	color: #ff0000;
+}
+
+.list .item-2 .item {
+	color: #19af19;
+}
+
+.list .item-3 .item {
+	color: #0173f7;
+}
+
+.list-2 .item-1 + .item {
+	font-size: 30px;
+}
+
+.list-1 > .item {
+	color: #941f33;
+}
+
+.list-2 .item-4 ~ .item {
+	font-style: italic;
+	font-size: 40px;
+}
