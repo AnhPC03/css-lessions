@@ -1,0 +1,17 @@
+body {
+	background-color: #eee;
+	display: grid;
+	grid-template-columns: 25% 25% 20% 30%;
+}
+
+.header {
+	grid-column: 1/5;
+	position: sticky;
+	top: 0;
+}
+
+
+.sideLeftBar, .invitedFriends, .chatBars {
+	position: sticky;
+  	top: 60px;
+}

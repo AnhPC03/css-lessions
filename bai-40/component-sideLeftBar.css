@@ -1,0 +1,48 @@
+.sideLeftBar {
+	height: 880px;
+	width: 200px;
+	padding-left: 250px;
+}
+
+.sideLeftBar a {
+	color: #000;
+	text-decoration: none;
+	padding-left: 5px;
+}
+
+.sideLeftBar .main {
+	display: flex;
+	padding-bottom: 20px;
+}
+.sideLeftBar .main .name {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.sideLeftBar .main .imageMain {
+	height: 40px;
+	width: 40px;
+	background-size: 100%;
+	background-color:#ddd;
+	background-image: url('./image/face_book_user.jpg');
+	clip-path: circle(50% at 50% 50%);
+}
+
+.sideLeftBar .watch {
+	padding-bottom: 10px;
+	height: 30px;
+}
+
+.sideLeftBar .watch .fa-ellipsis-h {
+	margin-left: 50px;
+	opacity: 0;
+}
+
+.sideLeftBar .watch:hover {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.sideLeftBar .watch:hover .fa-ellipsis-h {
+	opacity: 1;
+}

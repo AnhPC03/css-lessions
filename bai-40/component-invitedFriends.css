@@ -1,0 +1,47 @@
+.invitedFriends {
+	margin-left: 30px;
+	padding:10px;
+	width: 270px;
+	height: 600px;
+	background-color: #fff;
+}
+.invitedFriends a {
+	text-decoration: none;
+}
+
+
+.invitedFriends .intro {
+	font-weight: bold;
+	color: #696363;
+	padding-bottom: 10px;
+}
+.invitedFriends .intro a {
+	color: #0072ff;
+	font-weight: normal;
+	padding-left: 100px;
+}
+
+
+
+.invitedFriends .invitedFriend .friendImage {
+	height: 40px;
+	width: 40px;
+	margin-right: 10px;
+	background-image: url('https://loremflickr.com/30/30');
+	clip-path: circle(50% at 50% 50%);
+	float: left;
+}
+.invitedFriends .invitedFriend .friendName {
+	font-weight: bold;
+	color: #00f;
+}
+.invitedFriends .invitedFriend .sameFriends {
+	color: #999;
+}
+.invitedFriends .invitedFriend .approve {
+	margin-left: 50px;
+	margin-top: 3px;
+} 
+.invitedFriends .invitedFriend {
+	padding-bottom: 10px;
+}

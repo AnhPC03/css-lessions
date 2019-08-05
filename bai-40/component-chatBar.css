@@ -1,0 +1,54 @@
+
+.chatBars {
+	height: 880px;
+  	background-color: #fff;
+	margin-left: 350px; 
+	padding-left: 5px;
+	border-left: 1px solid #ccc;
+}
+
+.chatBars .title {
+	font-size: 20px;
+	color: #999;
+	border-bottom: 1px solid #ddd;
+}
+.chatBars .chatBar {
+	display: flex;
+	padding: 5px 0px;
+	border-bottom: 1px solid #ddd;
+}
+
+.chatBars .chatBar .imageMain {
+	height: 40px;
+	width: 40px;
+	background-color:#ddd;
+	background-size: 100%;
+	background-image: url('https://loremflickr.com/30/30');
+	clip-path: circle(50% at 50% 50%);
+}
+.chatBars .chatBar .imageMain1 {
+	height: 40px;
+	width: 40px;
+	background-size: 100%;
+	background-color:#ddd;
+	background-image: url('./image/face-book-eny.jpg');
+	clip-path: circle(50% at 50% 50%);
+}
+
+.chatBars .chatBar .name {
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+.chatBars .chatBar .stateOnline {
+	padding-left: 10px;
+	padding-top: 15px;
+}
+.chatBars .chatBar .stateOnline .state{
+	width: 8px;
+	height: 8px;
+	background-color: #0f0;
+	border-radius: 8px;
+	justify-content: center;
+	align-items: center;
+}

@@ -1,0 +1,55 @@
+.news a {
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
+	font-size: 18px;
+}
+.news .new {
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+.news .new .friendImage {
+	height: 40px;
+	width: 40px;
+	background-size: 100%;
+	margin-right: 10px;
+	background-image: url('./image/coder-tokyo.png');
+	clip-path: circle(50% at 50% 50%);
+	float: left;
+}
+
+.news .new .time {
+	float:left;
+	margin-right: 10px;
+	color: #999;
+}
+
+.news .new .fa-ellipsis-h {
+	float: right;
+	color:#000;
+}
+
+.news .new .content {
+	padding: none;
+	margin: none;
+	border-bottom: 1px solid #999;
+}
+
+.news .new .react {
+	display: flex;
+}
+.news .new .react a {
+	color: #666;
+	flex-grow: 1;
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+}
+
+.news .new .react a:hover {
+	background-color: #ddd;
+}
+.news .new .react i {
+	padding-right: 5px;
+}
