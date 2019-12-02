@@ -1,0 +1,44 @@
+#playIcon {
+  color: red;
+}
+
+.album-hot {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.album-hot .album-square {
+  height: 200px;
+  width: 200px;
+  background-color: #ddd;
+  box-sizing: border-box;
+  background-image: url('https://loremflickr.com/320/240');
+  background-size: cover;
+  background-position: center;
+  font-size: 60px;
+}
+
+.album-hot .album-square .overlay {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: all 0.5s;
+  background: linear-gradient(to bottom, rgba(10,10,10,0) 0%, rgba(15,15,15,0) 9%, rgba(26,26,26,0) 24%, rgba(0,0,0,0) 41%, rgba(10,10,10,0.18) 50%, rgba(26,26,26,0.18) 50%, rgba(34,34,34,0.22) 52%, rgba(41,41,41,0.25) 54%, rgba(58,58,58,0.5) 69%, rgba(59,59,59,0.51) 70%, rgba(51,51,51,0.76) 88%, rgba(43,43,43,1) 100%);
+}
+
+.album-hot .album-square:hover .overlay {
+  opacity: 1;
+}
+
+.album-hot .album-square .overlay #playIcon {
+  transition: all 0.3s;
+  transform: scale(1);
+}
+
+.album-hot .album-square:hover .overlay #playIcon {
+  transform: scale(1.5);
+}
+

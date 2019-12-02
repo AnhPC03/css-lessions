@@ -1,0 +1,36 @@
+
+body {
+	margin: 0;
+}
+
+.weekly-items {
+	display: flex;
+	align-items: center;
+	border-bottom: 1px solid #aaa;
+}
+
+.weekly-items .number {
+	font-size: 30px;
+	font-weight: bold;
+	padding: 0 10px;
+}
+
+.weekly-items .song-info {
+	flex-grow: 1;
+	margin: 10px 0;
+}
+
+.weekly-items .song-info .song-name {
+	font-size: 18px;
+}
+
+.weekly-items .song-info .singer-name {
+	font-size: 14px;
+	color: #888;
+}
+
+.weekly-items .view-count {
+	font-size: 14px;
+	color: #777;
+	padding: 0 10px;
+}

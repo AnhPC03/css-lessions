@@ -1,0 +1,29 @@
+
+body {
+	margin: 0;
+}
+
+.container {
+	background-color: #ccc;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+}
+
+.child-1 {
+	background-color: #f00;
+	flex-basis: 100px;
+	flex-grow: 0;
+}
+
+.child-2 {
+	background-color: #0f0;
+	flex-basis: 200px;
+	flex-grow: 0;
+}
+
+.child-3 {
+	background-color: #00f;
+	flex-basis: 300px;
+	flex-grow: 1;
+}

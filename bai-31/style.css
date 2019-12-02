@@ -1,0 +1,40 @@
+.menu {
+	display: flex;
+	list-style: none;
+	padding: 0;
+}
+
+.menu li {
+	padding: 8px 40px;
+	list-style: none;
+	position: relative;
+}
+
+.menu li:hover {
+	background-color: #eee;
+}
+
+.subMenu-contact, .subMenu-about {
+	position: absolute;
+	left: 0;
+	padding: 0;
+	top: 100%;
+	opacity: 0;
+	right: 0%;
+}
+
+.menu .contact:hover .subMenu-contact {
+	opacity: 1;
+}
+.menu .about:hover .subMenu-about {
+	opacity: 1;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #00f;
+}
