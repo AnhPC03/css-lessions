@@ -31,7 +31,25 @@
 	width: 40px;
 	background-size: 100%;
 	background-color:#ddd;
-	background-image: url('./image/face-book-eny.jpg');
+	background-image: url('./image/face-book-tanh.jpg');
+	clip-path: circle(50% at 50% 50%);
+}
+
+.chatBars .chatBar .imageMain2 {
+	height: 40px;
+	width: 40px;
+	background-size: 100%;
+	background-color:#ddd;
+	background-image: url('./image/face-book-dac.jpg');
+	clip-path: circle(50% at 50% 50%);
+}
+
+.chatBars .chatBar .imageMain3 {
+	height: 40px;
+	width: 40px;
+	background-size: 100%;
+	background-color:#ddd;
+	background-image: url('./image/face-book-bao.jpg');
 	clip-path: circle(50% at 50% 50%);
 }
 
