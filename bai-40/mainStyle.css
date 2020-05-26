@@ -15,3 +15,24 @@ body {
 	position: sticky;
   	top: 60px;
 }
+
+@media only screen and (max-width: 600px) {
+	.sideLeftBar {
+		padding-left: 10%;
+		padding-right:10%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.chatBars {
+		padding-left: 10%;
+		padding-right:10%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.header {
+		padding-left: 10%;
+		padding-right:10%;
+	}
+}

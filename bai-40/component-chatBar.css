@@ -2,7 +2,7 @@
 .chatBars {
 	height: 880px;
   	background-color: #fff;
-	margin-left: 350px; 
+	margin-left: 60%; 
 	padding-left: 5px;
 	border-left: 1px solid #ccc;
 }
